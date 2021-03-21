@@ -27,8 +27,8 @@ return console.debug("code reloaded by shadow-cljs");
  *   Gets called both at page load (`init`) and on automatic code reload by shadow-cljs (`on-reload`).
  */
 norns_index.app.mount_root = (function norns_index$app$mount_root(){
-var G__55123_55128 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [norns_index.views.main_view], null);
-(norns_index.app.mount_app_element.cljs$core$IFn$_invoke$arity$1 ? norns_index.app.mount_app_element.cljs$core$IFn$_invoke$arity$1(G__55123_55128) : norns_index.app.mount_app_element.call(null,G__55123_55128));
+var G__54222_54223 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [norns_index.views.main_view], null);
+(norns_index.app.mount_app_element.cljs$core$IFn$_invoke$arity$1 ? norns_index.app.mount_app_element.cljs$core$IFn$_invoke$arity$1(G__54222_54223) : norns_index.app.mount_app_element.call(null,G__54222_54223));
 
 return norns_index.dynamic_conf.get_from_wiki_js();
 });

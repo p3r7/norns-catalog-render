@@ -832,6 +832,7 @@ h2 {
 .script-panel {
   background-color: #eeeceb;
   padding: 10px;
+  cursor: pointer;
   /* transition: all 0.3s cubic-bezier(0.25, 0.45, 0.45, 0.95); */
 }
 
@@ -843,6 +844,11 @@ h2 {
 .script-title {
   font-size: 1em;
   font-weight: bold;
+}
+
+.script-description {
+  font-size: 1em;
+  font-style: italic;
 }
 
 .norns-screenshot-container {
