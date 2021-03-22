@@ -11,11 +11,11 @@ var feature_std_vals = new cljs.core.Keyword(null,"values","values",372645556).c
 var feature_catch_all_val = new cljs.core.Keyword(null,"catch-all-value","catch-all-value",-240110343).cljs$core$IFn$_invoke$arity$1(feature_def);
 var feature_all_default_vals = (cljs.core.truth_(feature_catch_all_val)?cljs.core.conj.cljs$core$IFn$_invoke$arity$2(feature_std_vals,feature_catch_all_val):feature_std_vals);
 var script_features = new cljs.core.Keyword(null,"features","features",-1146962336).cljs$core$IFn$_invoke$arity$1(script_def);
-var script_matching_features_default = cljs.core.keep.cljs$core$IFn$_invoke$arity$2((function (p1__55129_SHARP_){
-return norns_index.utils.core.member_QMARK_(p1__55129_SHARP_,script_features);
+var script_matching_features_default = cljs.core.keep.cljs$core$IFn$_invoke$arity$2((function (p1__44173_SHARP_){
+return norns_index.utils.core.member_QMARK_(p1__44173_SHARP_,script_features);
 }),feature_all_default_vals);
-var script_matching_features_filtered = cljs.core.keep.cljs$core$IFn$_invoke$arity$2((function (p1__55130_SHARP_){
-return norns_index.utils.core.member_QMARK_(p1__55130_SHARP_,script_features);
+var script_matching_features_filtered = cljs.core.keep.cljs$core$IFn$_invoke$arity$2((function (p1__44174_SHARP_){
+return norns_index.utils.core.member_QMARK_(p1__44174_SHARP_,script_features);
 }),feature_display_vals_f);
 var script_matching = (((cljs.core.count(feature_all_default_vals) > (1)))?script_matching_features_filtered:script_matching_features_default);
 var script_requires = (cljs.core.truth_(new cljs.core.Keyword(null,"required-features","required-features",-1798960645).cljs$core$IFn$_invoke$arity$1(script_def))?norns_index.utils.core.member_QMARK_(feature,new cljs.core.Keyword(null,"required-features","required-features",-1798960645).cljs$core$IFn$_invoke$arity$1(script_def)):null);
@@ -46,8 +46,8 @@ norns_index.state.show_script_QMARK_ = (function norns_index$state$show_script_Q
 var script_def = cljs.core.get_in.cljs$core$IFn$_invoke$arity$2(cljs.core.deref(norns_index.state.state),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"script-list","script-list",-309457031),script_name], null));
 var script_features = new cljs.core.Keyword(null,"features","features",-1146962336).cljs$core$IFn$_invoke$arity$1(script_def);
 var filter_txt = cljs.core.get_in.cljs$core$IFn$_invoke$arity$2(cljs.core.deref(norns_index.state.state),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"filter","filter",-948537934),new cljs.core.Keyword(null,"txt","txt",626843688)], null));
-return ((clojure.string.includes_QMARK_(script_name,filter_txt)) && (cljs.core.every_QMARK_((function (p1__55131_SHARP_){
-return norns_index.state.show_script_w_feature_QMARK_(script_def,p1__55131_SHARP_);
+return ((clojure.string.includes_QMARK_(script_name,filter_txt)) && (cljs.core.every_QMARK_((function (p1__44175_SHARP_){
+return norns_index.state.show_script_w_feature_QMARK_(script_def,p1__44175_SHARP_);
 }),new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"grid","grid",402978600),new cljs.core.Keyword(null,"arc","arc",252411045),new cljs.core.Keyword(null,"crow","crow",-2094052464),new cljs.core.Keyword(null,"midi","midi",1256960668)], null))));
 });
 
