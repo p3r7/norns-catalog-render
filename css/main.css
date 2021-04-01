@@ -1,10 +1,17 @@
+* {
+  text-transform: lowercase !important; }
+
 .container-fluid {
   padding: 0; }
 
-h1 {
+h1, h2 {
   color: #1565c0;
   font-style: italic;
   border-bottom: 5px solid #1565c0; }
+
+h2 {
+  font-size: 1rem;
+  border-bottom-width: 3px; }
 
 .script-panel {
   background: #eeeeee;
@@ -22,21 +29,30 @@ h1 {
       top: 0;
       left: 0;
       z-index: 100; }
-  .script-panel ul.norns-feature-container {
-    height: 24px;
-    list-style: none;
-    margin: 0;
-    padding: 0; }
-    .script-panel ul.norns-feature-container li {
-      float: left;
+
+ul.norns-feature-container {
+  height: 24px;
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+  ul.norns-feature-container li {
+    float: left; }
+    ul.norns-feature-container li img {
       height: 24px;
       width: 27px;
       margin-right: 5px;
       margin-bottom: 5px; }
-    .script-panel ul.norns-feature-container li.feature-kbd,
-    .script-panel ul.norns-feature-container li.feature-mouse {
-      height: 24px;
-      width: 52px; }
+  ul.norns-feature-container li.feature-keyboard img,
+  ul.norns-feature-container li.feature-mouse img {
+    height: 24px;
+    width: 52px; }
+
+ul.norns-feature-legend {
+  margin-bottom: 20px; }
+  ul.norns-feature-legend li {
+    margin-right: 50px; }
+    ul.norns-feature-legend li span, ul.norns-feature-legend li img {
+      float: left; }
 
 .script-panel:hover {
   background: #1565c0;
