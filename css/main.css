@@ -4,27 +4,33 @@
 .container-fluid {
   padding: 0; }
 
-h1, h2 {
-  color: #1565c0;
+h1 {
+  color: #424242;
   font-style: italic;
-  border-bottom: 5px solid #1565c0; }
+  border-bottom: 5px solid #424242; }
 
 h2 {
+  color: #424242;
   font-size: 1rem;
-  border-bottom-width: 3px; }
+  border-bottom: 1px solid #424242; }
 
-.script-panel {
+.gallery-panel {
   background: #eeeeee;
   padding: 10px;
   margin-bottom: 20px; }
-  .script-panel .norns-screenshot-container {
+  .gallery-panel .norns-screenshot-container {
     position: relative; }
-    .script-panel .norns-screenshot-container img {
+    .gallery-panel .norns-screenshot-container img {
       display: inline-block;
       width: 100%; }
-    .script-panel .norns-screenshot-container .img-norns-screenshot {
-      z-index: 50; }
-    .script-panel .norns-screenshot-container .img-norns-screenshot {
+    .gallery-panel .norns-screenshot-container .img-norns-screenshot {
+      z-index: 50;
+      -webkit-filter: grayscale(100%);
+      filter: grayscale(100%);
+      image-rendering: -moz-crisp-edges;
+      image-rendering: crisp-edges;
+      image-rendering: pixelated; }
+    .gallery-panel .norns-screenshot-container .img-norns-screenshot {
       position: absolute;
       top: 0;
       left: 0;
@@ -33,7 +39,7 @@ h2 {
 ul.norns-feature-container {
   height: 24px;
   list-style: none;
-  margin: 0;
+  margin: 5px 0 0 0;
   padding: 0; }
   ul.norns-feature-container li {
     float: left; }
@@ -47,16 +53,14 @@ ul.norns-feature-container {
     height: 24px;
     width: 52px; }
 
-ul.norns-feature-legend {
-  margin-bottom: 20px; }
-  ul.norns-feature-legend li {
-    margin-right: 50px; }
-    ul.norns-feature-legend li span, ul.norns-feature-legend li img {
-      float: left; }
+ul.norns-feature-io {
+  height: auto; }
 
-.script-panel:hover {
+.gallery-panel:hover {
   background: #1565c0;
   color: #ffffff;
   cursor: pointer; }
+  .gallery-panel:hover a {
+    color: #ffffff; }
 
 /*# sourceMappingURL=main.css.map */
