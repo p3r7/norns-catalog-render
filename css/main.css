@@ -19,7 +19,8 @@ h2 {
   padding: 10px;
   margin-bottom: 20px; }
   .gallery-panel .norns-screenshot-container {
-    position: relative; }
+    position: relative;
+    overflow: hidden; }
     .gallery-panel .norns-screenshot-container img {
       display: inline-block;
       width: 100%; }
