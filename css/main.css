@@ -14,19 +14,6 @@ h2 {
   font-size: 1rem;
   border-bottom: 1px solid #424242; }
 
-a {
-  text-decoration: none; }
-
-a h3,
-a p {
-  color: #424242; }
-  a h3 a,
-  a p a {
-    text-decoration: underline; }
-
-a:hover h3, a:hover p {
-  color: #ffffff; }
-
 .gallery-panel {
   background: #eeeeee;
   padding: 10px;
@@ -70,11 +57,11 @@ ul.norns-feature-container {
 ul.norns-feature-io {
   height: auto; }
 
-a .gallery-panel:hover {
+.gallery-panel:hover {
   background: #1565c0;
   color: #ffffff;
   cursor: pointer; }
-  a .gallery-panel:hover a {
+  .gallery-panel:hover a {
     color: #ffffff; }
 
 /*# sourceMappingURL=main.css.map */
