@@ -70,11 +70,11 @@ ul.norns-feature-container {
 ul.norns-feature-io {
   height: auto; }
 
-.gallery-panel:hover {
+a .gallery-panel:hover {
   background: #1565c0;
   color: #ffffff;
   cursor: pointer; }
-  .gallery-panel:hover a {
+  a .gallery-panel:hover a {
     color: #ffffff; }
 
 /*# sourceMappingURL=main.css.map */
