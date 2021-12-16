@@ -51,7 +51,8 @@ ul.norns-feature-container {
       margin-bottom: 5px; }
   ul.norns-feature-container li.feature-kbd img,
   ul.norns-feature-container li.feature-mouse img,
-  ul.norns-feature-container li.feature-jf img {
+  ul.norns-feature-container li.feature-jf img,
+  ul.norns-feature-container li.feature-16n img {
     height: 24px;
     width: 52px; }
 
